@@ -1,0 +1,32 @@
+.main-landing-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: calc(100vh - 90px); /* 90px for navbar height, adjust as needed */
+  min-height: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.app-bg {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #000;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
